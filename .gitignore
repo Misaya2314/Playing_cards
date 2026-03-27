@@ -1,0 +1,109 @@
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+
+# =========================
+# Editor / IDE
+# =========================
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+
+# =========================
+# Generic build outputs
+# =========================
+Debug/
+Release/
+debug/
+release/
+build/
+bin/
+obj/
+out/
+ipch/
+*.obj
+*.o
+*.lo
+*.la
+*.al
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.tlog
+*.lastbuildstate
+*.log
+*.tmp
+*.cache
+
+# =========================
+# CMake
+# =========================
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+compile_commands.json
+
+# =========================
+# Win32 project outputs
+# =========================
+proj.win32/Debug.win32/
+proj.win32/Release.win32/
+proj.win32/x64/
+
+# =========================
+# Linux project outputs
+# =========================
+proj.linux/bin/
+proj.linux/build/
+
+# =========================
+# Android generated files
+# =========================
+proj.android/.gradle/
+proj.android/app/build/
+proj.android/build/
+proj.android/local.properties
+proj.android/.cxx/
+
+# =========================
+# iOS / macOS generated files
+# =========================
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# =========================
+# Cocos engine build outputs
+# Keep engine source, ignore generated artifacts only
+# =========================
+cocos2d/cocos/2d/Debug.win32/
+cocos2d/cocos/2d/Release.win32/
+cocos2d/cocos/2d/x64/
+cocos2d/external/**/Debug.win32/
+cocos2d/external/**/Release.win32/
+cocos2d/external/**/x64/
+
+# =========================
+# Temporary docs / archives
+# =========================
+*.zip
+*.rar
+*.7z
+
+# Keep requirement docs if you need to submit them with the repo
+!*.docx
